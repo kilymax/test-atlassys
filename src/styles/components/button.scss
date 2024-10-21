@@ -1,0 +1,20 @@
+.button {
+  background-color: rgba(24, 20, 243, 1);
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 21.78px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 18.15px;
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+  }
+}

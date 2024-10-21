@@ -1,0 +1,51 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+
+  &-select {
+    position: relative;
+  }
+
+  &__arrow {
+    width: 12px;
+    height: 6px;
+    right: 25px;
+    top: 53px;
+    position: absolute;
+    background: url('assets/arrow.svg') no-repeat center center;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(35, 35, 35, 1);
+
+    @media screen and (max-width: 768px) {
+      font-size: 13px;
+      line-height: 15.73px;
+    }
+  }
+
+  input {
+    border: 1px solid rgba(223, 234, 242, 1);
+    color: rgba(113, 142, 191, 1);
+    font-size: 15px;
+    line-height: 18.15px;
+    padding: 16px 20px;
+    outline: none;
+    border-radius: 15px;
+    height: 50px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 12px;
+      height: 40px;
+      line-height: 14.52px;
+      border-radius: 9px;
+    }
+
+    &::placeholder {
+      color: rgba(113, 142, 191, 1);
+    }
+  }
+}

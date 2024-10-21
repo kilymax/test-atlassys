@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.woff2');
+  font-weight: 600;
+}
+
+@import 'variables';
+@import 'scaffolding';
+
+@import './components/sidebar.scss';
+@import './components/header.scss';
+@import './components/icon.scss';
+@import './components/input-search.scss';
+@import './components/input.scss';
+@import './components/avatar.scss';
+@import './components/tabs.scss';
+@import './components/main.scss';
+@import './components/content.scss';
+@import './components/edit-page.scss';
+@import './components/button.scss';
+@import './components/burger.scss';
